@@ -1,0 +1,19 @@
+/* pages/home/home.wxss */
+
+
+
+.grid-item{
+    float: left;
+    box-sizing: border-box;
+    width: 33.33%;
+    height: 283rpx;
+    padding-bottom: 5px;
+    
+    border: 1px solid gray;
+    
+}
+
+.grid-item image{
+    width: 246rpx;
+    height: 279rpx;
+}

@@ -1,0 +1,20 @@
+<!--pages/psgame/psgame.wxml-->
+<navigator wx:for="{{List}}" wx:key="index">
+    <view class="list">
+        <image src="{{item.image}}"></image>
+        <view class="info">
+            <view>
+                <text class="name">{{item.name}}\n</text>
+            </view>
+            <view class="message" style="width: 284rpx; height: 143rpx; display: flex; box-sizing: border-box">
+                <view class="price">
+                    <text>{{item.price}}</text>
+                </view>
+                <view class="score">
+                    <text>{{item.scores}}</text>
+                </view>
+            </view>
+        </view>
+        
+    </view>
+</navigator>

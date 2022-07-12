@@ -1,0 +1,31 @@
+/* pages/pcgame/pcgame.wxss */
+.list image{
+    width: 180px;
+    height: 95px;
+    margin-right: 5px;
+}
+.list{
+    
+    display: flex;
+    margin:5px;
+}
+
+.info{
+    display: inline;
+    margin-top: 3px;
+}
+
+.name{
+    /* font-size: 17px; */
+    font-weight: bold;
+}
+.message{
+    display: flex;
+    padding-top: 40px; 
+}
+.price{
+    width: 150px;
+}
+.score{
+    float:right;
+}

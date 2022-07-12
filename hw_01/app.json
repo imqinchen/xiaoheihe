@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/gamelibrary/gamelibrary",
+    "pages/contact/contact",
+    "pages/pcgame/pcgame",
+    "pages/switchgame/switchgame",
+    "pages/psgame/psgame",
+    "pages/yugao/yugao"
+  ],
+  "window": {
+
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "小黑盒",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+      "list": [{
+          "pagePath": "pages/home/home",
+          "text": "首页",
+          "iconPath": "/images/tabs/home.png",
+          "selectedIconPath": "/images/tabs/home_1.png"
+      },
+      {
+        "pagePath": "pages/gamelibrary/gamelibrary",
+        "text": "游戏库",
+        "iconPath": "/images/tabs/youxi.png",
+        "selectedIconPath": "/images/tabs/youxi_1.png"
+    },
+    {
+        "pagePath": "pages/contact/contact",
+        "text": "联系我们",
+        "iconPath": "/images/tabs/contact.png",
+        "selectedIconPath": "/images/tabs/contact_1.png"
+    }]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}
